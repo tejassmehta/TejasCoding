@@ -1,0 +1,15 @@
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/bin/Debug/netcoreapp2.1/appsettings.Development.json
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/bin/Debug/netcoreapp2.1/appsettings.json
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/bin/Debug/netcoreapp2.1/resources/EmployeeSeedData.json
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/bin/Debug/netcoreapp2.1/code-challenge.deps.json
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/bin/Debug/netcoreapp2.1/code-challenge.runtimeconfig.json
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/bin/Debug/netcoreapp2.1/code-challenge.runtimeconfig.dev.json
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/bin/Debug/netcoreapp2.1/code-challenge.dll
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/bin/Debug/netcoreapp2.1/code-challenge.pdb
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/obj/Debug/netcoreapp2.1/code-challenge.csprojAssemblyReference.cache
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/obj/Debug/netcoreapp2.1/code-challenge.AssemblyInfoInputs.cache
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/obj/Debug/netcoreapp2.1/code-challenge.AssemblyInfo.cs
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/obj/Debug/netcoreapp2.1/code-challenge.csproj.CoreCompileInputs.cache
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/obj/Debug/netcoreapp2.1/code-challenge.dll
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/obj/Debug/netcoreapp2.1/code-challenge.pdb
+/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/obj/Debug/netcoreapp2.1/code-challenge.genruntimeconfig.cache
