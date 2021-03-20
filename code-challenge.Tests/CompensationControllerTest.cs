@@ -115,17 +115,35 @@ namespace code_challenge.Tests.Integration
         public void GetCompensationByEmployeeId_Returns_Ok()
         {
             // Arrange
-            String employeeId = "16a596ae-edd3-4847-99fe-c4518e82c86f";
-            double expectedSalary = 5000;
+            Compensation compensation = new Compensation()
+            {
+                EmployeeId = "b7839309-3348-463b-a7e3-5de1c168beb3",
+                Salary = 5000,
+                EffectiveDate = new DateTime(2020, 2, 12)
+            };
+
+            var requestContent = new JsonSerialization().ToJson(compensation);
+
+            // Execute
+            var postRequestTask = _httpClient.PostAsync("api/compensation",
+               new StringContent(requestContent, Encoding.UTF8, "application/json"));
+            var response = postRequestTask.Result;
+
+            // Assert
+            Assert.AreEqual(HttpStatusCode.Created, response.StatusCode);
+
+            // Arrange
+            String employeeId = "b7839309-3348-463b-a7e3-5de1c168beb3";
+            Decimal expectedSalary = 5000;
             DateTime expectedeffectiveDate = new DateTime(2020, 2, 12);
 
             // Execute
             var getRequestTask = _httpClient.GetAsync($"api/compensation/{employeeId}");
-            var response = getRequestTask.Result;
+            response = getRequestTask.Result;
 
             // Assert
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
-            var compensation = response.DeserializeContent<Compensation>();
+            compensation = response.DeserializeContent<Compensation>();
             Assert.AreEqual(expectedSalary, compensation.Salary);
             Assert.AreEqual(expectedeffectiveDate, compensation.EffectiveDate);
         }

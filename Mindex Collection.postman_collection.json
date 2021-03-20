@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "b31f8f9a-a38a-4cf4-a548-fdbb6e173945",
+		"name": "Mindex Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Reporting structure",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/reportingstructure/16a596ae-edd3-4847-99fe-c4518e82c86f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"reportingstructure",
+						"16a596ae-edd3-4847-99fe-c4518e82c86f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Compensation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"EmployeeId\" : \"16a596ae-edd3-4847-99fe-c4518e82c86f\",\r\n    \"Salary\" : 5000 ,\r\n    \"EffectiveDate\" : \"2/12/2020 12:00:00 AM\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/compensation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"compensation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Compensation by Employee ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"EmployeeId\" : \"16a596ae-edd3-4847-99fe-c4518e82c86f\",\r\n    \"Salary\" : 5000 ,\r\n    \"EffectiveDate\" : \"2/12/2020 12:00:00 AM\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/compensation/16a596ae-edd3-4847-99fe-c4518e82c86f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"compensation",
+						"16a596ae-edd3-4847-99fe-c4518e82c86f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Compensation Employee By Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"EmployeeId\" : \"16a596ae-edd3-4847-99fe-c4518e82c86f\",\r\n    \"Salary\" : 7000 ,\r\n    \"EffectiveDate\" : \"2/12/2020 12:00:00 AM\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/compensation/16a596ae-edd3-4847-99fe-c4518e82c86f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"compensation",
+						"16a596ae-edd3-4847-99fe-c4518e82c86f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

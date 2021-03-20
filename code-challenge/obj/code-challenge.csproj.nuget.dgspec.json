@@ -1,30 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/code-challenge.csproj": {}
+    "D:\\MindexCodingChallenge\\code-challenge\\code-challenge.csproj": {}
   },
   "projects": {
-    "/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/code-challenge.csproj": {
+    "D:\\MindexCodingChallenge\\code-challenge\\code-challenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/code-challenge.csproj",
+        "projectUniqueName": "D:\\MindexCodingChallenge\\code-challenge\\code-challenge.csproj",
         "projectName": "code-challenge",
-        "projectPath": "/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/code-challenge.csproj",
-        "packagesPath": "/Users/tejasmehta/.nuget/packages/",
-        "outputPath": "/Users/tejasmehta/Downloads/sr-code-challenge-dotnet/code-challenge/obj/",
+        "projectPath": "D:\\MindexCodingChallenge\\code-challenge\\code-challenge.csproj",
+        "packagesPath": "C:\\Users\\offic\\.nuget\\packages\\",
+        "outputPath": "D:\\MindexCodingChallenge\\code-challenge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tejasmehta/.config/NuGet/NuGet.Config"
+          "C:\\Users\\offic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
-            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -36,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.AspNetCore.All": {
               "target": "Package",
@@ -67,7 +67,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
